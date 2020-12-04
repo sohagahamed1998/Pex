@@ -1,0 +1,526 @@
+/** 
+Template Name: Pex - HTML Template
+Template URL: http://coderitsoltion.com
+Author: Coder IT Solution
+Author URI: http://coderitsoltion.com
+Description:Pex HTML Template
+Keywords: html,css,js
+
+**/
+
+ 	  /************************/
+	 /******* Main CSS *******/
+	/************************/
+/*
+	font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+*/
+
+
+html{
+	font-size: 62.5%;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	overflow-x:hidden; 
+}
+ul{
+ 	list-style:none;
+ 	padding: 0;
+ 	margin: 0;
+}
+a{
+ 	text-decoration: none;
+ 	display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+ 	margin: 0px;
+}
+.owl-dot:focus {
+	outline: none !important;
+}
+
+
+	  /************************/
+	 /****** Default CSS *****/
+	/************************/
+
+.btn-sty-1 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	font-size: 1.6rem;
+	padding: 8px 30px;
+	padding: .8rem 3rem;
+	background: #8824cd;
+	border-radius: 25px;
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+.btn-sty-1:hover{
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+	color:#ffffff;
+}
+
+.btn-sty-2 {
+	color: #ffffff;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: 600;
+	padding: 5px 20px;
+	padding: .5rem 2rem;
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+.btn-sty-2:hover{
+	color:#ffffff;
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+	  /********************************/
+	 /****** 1.Header CSS  Start *****/
+	/********************************/
+
+.header-area{
+	background: url(../images/banner/header-bnr-2.jpg) no-repeat scroll 0 0 / 100% 100%;
+	padding-top: 20px;
+	padding-top: 2rem;
+}
+
+.logo-area a{
+	color:#e7526b;
+	font-size: 30px;
+	font-size:3rem;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+}
+.logo-area a span{
+	color:#ffffff;
+	font-size: 14px;
+	font-size:1.4rem;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+}
+.header-menu {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: end;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.header-menu ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: end;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.header-menu ul li i{
+	color:#ffffff;
+	font-size: 13px;
+	font-size: 1.3rem;
+	margin-right: 30px;
+	margin-right: 3rem;
+	position: relative;	
+}
+.header-menu ul li a{
+	color:#ffffff;
+	font-size: 13px;
+	font-size: 1.3rem;
+	margin-right: 30px;
+	margin-right: 3rem;
+	position: relative;	
+}
+.header-menu ul li a:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background: #ffffff;
+	bottom: -100%;
+	visibility: hidden;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.header-menu ul li a:hover:after {
+	visibility: visible;
+}
+.header-serch {
+	background: #ffffff;
+	border-radius: 25px;
+}
+.header-menu ul li a i {
+	display: none;
+}
+.header-serch input {
+	color: #626262;
+	font-size: 13px;
+	font-size: 1.3rem;
+	margin: 10px 20px;
+	margin: 1rem 2rem;
+	border: none;
+}
+.header-serch form{
+	position: relative;
+}
+.header-menu .fas.fa-search.ss {
+	display: none;
+}
+.header-serch button i {
+	color: #626262 !important;
+	font-size: 20px !important;
+	font-size: 2rem !important;
+}
+.header-serch button {
+	background: transparent;
+	border: none;
+	position: absolute;
+	top: 24%;
+	right: -5%;
+	outline: none;
+}
+.header-area hr {
+	background: #3c2e3d;
+	height: 2px !important;
+}
+.header-details {
+	text-align: end;
+	padding: 230px 0 170px 0;
+	padding: 23rem 0 17rem 0;
+}
+.header-details h2{
+	font-size: 50px;
+	font-size: 5rem;
+	color:#ffffff;
+}
+.header-details p {
+	color: #fff;
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+.header-btn {
+	padding: 30px 0 10px 0;
+	padding: 3rem 0 1rem 0;
+}
+
+	  /******************************/
+	 /****** 1.Header CSS End ******/
+	/******************************/
+
+
+	  /******************************/
+	 /****** 2.Item CSS Start ******/
+	/******************************/
+.item-area {
+	background: #2e3b4e;
+	padding: 50px 0 0 0;
+	padding: 5rem 0 0 0;
+	color: #ffffff;
+}
+.item-content h3{
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+}
+.item-content p{
+	font-size: 15px;
+	font-size: 1.5rem;
+	padding-bottom: 50px;
+	padding-bottom: 5rem;
+}
+.item-area .container{
+	width: 70%;
+}
+
+	  /******************************/
+	 /******  2.Item CSS End  ******/
+	/******************************/
+
+
+	  /******************************/
+	 /**** 3.Wicked CSS Start ******/
+	/******************************/
+.wicked-area{
+	background: url(../images/banner/wicked-bnr.jpg) no-repeat scroll 0 0 / 100% 100%;
+	padding: 150px 0;
+	padding: 15rem 0;
+}
+.ex-content,
+.wicked-content{
+	text-align: center;
+	color:#ffffff;
+}
+.ex-content h2,
+.wicked-content h2{
+	font-size: 35px;
+	font-size: 3.5rem;
+	font-weight: 300;
+}
+.ex-content p,
+.wicked-content p {
+	font-size: 15px;
+	font-size: 1.5rem;
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px 0;
+	padding: 2rem 0;
+}	
+.wicked-btn .btn-sty-1{
+	background: #ffffff;
+	color: #d54c63;
+}
+
+
+	  /******************************/
+	 /****  3.Wicked CSS End  ******/
+	/******************************/
+
+
+
+	  /****************************/
+	 /****   4.Pen CSS Start  ****/
+	/****************************/
+
+
+.pen-img{
+	width: 100%;
+	height: auto;
+}
+.pen-img img{
+	width: 100%;
+	height: 100%;
+}
+.pen-right {
+	width: 80%;
+	padding: 70px 0px 0px 30px;
+	padding: 7rem 0rem 0rem 3rem;
+}
+.watch-right h3,
+.pen-right h3 {
+	color: #3a4d60;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.watch-right h4,
+.pen-right h4 {
+	color: #3a4d60;
+	font-size: 18px;
+	font-size: 1.8rem;
+	margin: 10px 0 20px 0;
+	margin: 1rem 0 2rem 0;
+}
+.watch-right p,
+.pen-right p{
+	color: #3a4d60;
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+
+
+	
+	  /****************************/
+	 /****   4.Pen CSS End  ******/
+	/****************************/
+
+
+
+	  /********************************/
+	 /**** 5.Experience CSS Start ****/
+	/********************************/
+
+.ex-area{
+		background: url(../images/banner/ex-bnr.jpg) no-repeat scroll 0 0 / 100% 100%;
+		padding: 80px 0;
+		padding: 8rem 0;
+		position: relative;
+		z-index: 1;
+}
+.ex-area:after{
+	content: "";
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:rgba(79,34,95, .7);
+	z-index:-1;	
+}
+.ex-btn .btn-sty-1{
+	background: #8824cd;
+	color: #ffffff;
+}
+.ex-content h5{
+	font-size: 12px;
+	font-size: 1.2rem;
+	margin-top: 15px;
+	margin-top: 1.5rem;
+}
+
+	  /********************************/
+	 /**** 5.Experience CSS Start ****/
+	/********************************/
+
+
+
+	  /********************************/
+	 /**** 6.Photogrphy CSS Start ****/
+	/********************************/
+
+.ph-area{
+	background: url(../images/banner/ph-bnr.jpg) no-repeat scroll 0 0 / 100% 100%;
+}
+
+.ph-content{
+	padding: 300px 0 70px 0;
+	padding: 30rem 0 7rem 0;
+}
+.ph-content h2 {
+	color: #ffffff;
+	font-size: 40px;
+	font-size: 4rem;
+	padding: 20px 0;
+	padding: 2rem 0;
+}
+.ph-bottom ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.ph-bottom ul li a {
+	color: #fff;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: 600;
+	margin-right: 10px;
+	margin-right: 1rem;
+}
+
+
+	  /******************************/
+	 /**** 6.Photogrphy CSS End ****/
+	/******************************/
+
+
+
+	  /***************************/
+	 /**** 7.Watch CSS Start ****/
+	/***************************/
+
+
+.watch-right {
+	width: 90%;
+	padding: 70px 0 0 115px;
+	padding: 7rem 0 0 11.5rem;
+}
+
+
+	  /*************************/
+	 /**** 7.Watch CSS End ****/
+	/*************************/
+
+
+
+
+	  /*****************************/
+	 /**** 8.Contact CSS Start ****/
+	/*****************************/
+.contact-area{
+	background: #e7526b;
+}
+.contact-content {
+	padding: 80px 0 220px 0;
+	padding: 8rem 0 22rem 0;
+	color:#ffffff;
+}
+.contact-content h3 {
+	font-size: 15px;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.contact-content p {
+	font-size: 15px;
+	font-size: 1.5rem;
+	width: 80%;
+	margin: 20px 0 30px 0;
+	margin: 2rem 0 3rem 0;
+}
+.contact-content a{
+	font-size: 15px;
+	font-size: 1.5rem;
+	color:#ffffff;
+}
+	  /***************************/
+	 /**** 8.Contact CSS End ****/
+	/***************************/
+
+
+
+	  /***************************/
+	 /*** 9.Footer CSS Strat ****/
+	/***************************/
+
+.footer-area{
+	background: #2e3b4e;
+	padding: 30px 0;
+	padding: 3rem 0;
+}
+.footer-area h3 {
+	color: #fff;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+.footer-content{
+	position: relative;
+}
+.scroll-btn {
+	position: absolute;
+	top: -5px;
+	right: 0;
+	background: #e7526b;
+	border-radius: 25px;
+	padding: 2px 10px;
+	padding: .2rem 1rem;
+}
+.scroll-btn a i{
+	font-size: 20px;
+	font-size: 2rem;
+	color:#FFFfff;
+}
+
+
+.nav-icon {
+	padding: 2px 10px;
+	padding: .2rem 1rem;
+	border: 1px solid #e7526b;
+	border-radius: 5px;
+	font-size: 20px !important;
+	font-size: 2rem !important;
+	display: none;
+}
+	  /**************************/
+	 /**** 9.Footer CSS End ****/
+	/**************************/
